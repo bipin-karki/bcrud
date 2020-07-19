@@ -1,15 +1,15 @@
 {
-    "name": "bipin/bcrud",
+    "name": "bipin-karki/bcrud",
     "description": ":package_description",
     "license": "license",
     "authors": [
         {
-            "name": "author name",
-            "email": "author email",
+            "name": "Bipin Karki",
+            "email": "bipinkarki172@gmail.com",
             "homepage": "author homepage"
         }
     ],
-    "homepage": "https://github.com/bipin/bcrud",
+    "homepage": "https://github.com/bipin-karki/bcrud",
     "keywords": ["Laravel", "Bcrud"],
     "require": {
         "illuminate/support": "~5|~6|~7"
