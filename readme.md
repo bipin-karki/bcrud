@@ -16,7 +16,11 @@ $ composer require bipin-karki/bcrud-generator-laravel
 ```
 
 ## Usage
-
+This command will create controllers, api routes, empty migration file
+``` bash
+$ php artisan bcrud:generator Contact
+```
+Once this command run successfully then you can update migration and run migrate fucntion. Then you can use api routes for resource process, Create, Store, Edit, Update, Destroy, Index
 ## Change log
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
