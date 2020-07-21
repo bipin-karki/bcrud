@@ -22,11 +22,12 @@ $ php artisan bcrud:generator Contact
 ```
 Once this command run successfully then you can update migration and run migrate fucntion. Then you can use api routes for resource process, Create, Store, Edit, Update, Destroy, Index
 
-
-``` If Helpers were not installed
+If Helpers were not installed
+``` 
 composer require laravel/helpers
 ```
-``` Publish bcrud.stubs
+Publish bcrud.stubs
+``` 
 php artisan vendor:publish
 ```
 ## Change log
