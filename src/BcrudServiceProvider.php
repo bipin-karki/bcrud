@@ -68,7 +68,7 @@ class BcrudServiceProvider extends ServiceProvider
 
         // publish stubs
          $this->publishes([
-            __DIR__.'/../resources/stubs' => base_path('resources/views/vendor/bipin'),
+            __DIR__.'/../resources/stubs' => base_path('resources/stubs'),
         ], 'bcrud.stubs');
 
         // Publishing assets.

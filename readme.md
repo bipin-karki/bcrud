@@ -21,15 +21,16 @@ This command will create controllers, api routes, empty migration file
 $ php artisan bcrud:generator Contact
 ```
 Once this command run successfully then you can update migration and run migrate fucntion. Then you can use api routes for resource process, Create, Store, Edit, Update, Destroy, Index
+
+
+``` If Helpers were not installed
+composer require laravel/helpers
+```
 ## Change log
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
 
-## Testing
 
-``` bash
-$ composer test
-```
 
 ## Contributing
 
