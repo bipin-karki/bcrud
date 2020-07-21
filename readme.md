@@ -26,6 +26,9 @@ Once this command run successfully then you can update migration and run migrate
 ``` If Helpers were not installed
 composer require laravel/helpers
 ```
+``` Publish bcrud.stubs
+php artisan vendor:publish
+```
 ## Change log
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
